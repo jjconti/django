@@ -3,7 +3,7 @@ GeoDjango Tutorial
 ==================
 
 Introduction
-============
+============f
 
 GeoDjango is an included contrib module for Django that turns it into a
 world-class geographic Web framework.  GeoDjango strives to make it as simple
@@ -704,7 +704,7 @@ Let's dive right in.  Create a file called ``admin.py`` inside the
 ``world`` application with the following code::
 
     from django.contrib.gis import admin
-    from models import WorldBorder
+    from .models import WorldBorder
 
     admin.site.register(WorldBorder, admin.GeoModelAdmin)
 
